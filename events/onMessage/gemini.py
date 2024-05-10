@@ -4,7 +4,6 @@ from PIL import Image
 import requests, json
 from io import BytesIO
 api_key = os.getenv("GEMINI_TOKEN")
-print(os.getenv("GEMINI_TOKEN"))
 genai.configure(api_key = api_key)
 def askToGemini_text(message:str, chat:genai.ChatSession, channelId):
     model = genai.GenerativeModel('gemini-pro')
