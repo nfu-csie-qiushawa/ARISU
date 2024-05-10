@@ -14,8 +14,8 @@
 # 安裝
 需求
 - Python 3.11 以上
-  ```env
-  aiohttp==3.9.5
+```env
+aiohttp==3.9.5
 aiosignal==1.3.1
 annotated-types==0.6.0
 attrs==23.2.0
