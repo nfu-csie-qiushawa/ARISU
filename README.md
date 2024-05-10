@@ -14,7 +14,9 @@
 # 安裝
 需求
 - Python 3.11 以上
-
+- 申請 [discord bot token](https://discord.com/developers/applications)
+- 申請 [gemini api token](https://ai.google.dev/)
+  
 本地部屬這個專案
 
 ```bash
@@ -25,9 +27,15 @@ pip install -r requirements.txt
 
 你需要配置你的.env檔案在專案目錄(記得把example拿掉)
 ```env
-#TOKEN
+#Discord Setting
 DISCORD_TOKEN=機器人的token #https://discord.com/developers/applications
+
+#Gemini Setting
 GEMINI_TOKEN=gemini的token #https://ai.google.dev/gemini-api/docs/api-key?hl=zh-tw
+
+#Judge0 Setting (還沒實裝)
+# JUDGE0_TOKEN=
+# JUDGE0_TOKEN_HOST=
 ```
 運行機器人
 ```bash
