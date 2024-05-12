@@ -13,8 +13,8 @@
 
 # 安裝
 需求
-- 安裝 [Python 3.11](https://www.python.org/downloads/) 以上
 - 安裝 [git](https://git-scm.com/downloads)
+- 安裝 [Python 3.11](https://www.python.org/downloads/) 以上
 - 申請 [discord bot token](https://discord.com/developers/applications)
 - 申請 [gemini api token](https://ai.google.dev/)
   
