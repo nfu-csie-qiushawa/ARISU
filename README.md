@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```env
 #Discord Setting
 DISCORD_TOKEN=機器人的token #https://discord.com/developers/applications
-
+BOT_ID=機器人的id
 #Gemini Setting
 GEMINI_TOKEN=gemini的token #https://ai.google.dev/gemini-api/docs/api-key?hl=zh-tw
 
