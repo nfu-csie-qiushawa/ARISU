@@ -19,7 +19,7 @@ def askToGemini_img(message:str, url, channelId):
     res = model.generate_content([message, rgb_im])
     return res.text
 def change_history(res, role, channelId):
-    with open("database\chat_history.json", 'r', encoding='utf-8') as db:
+    with open("core\database\chat_history.json", 'r', encoding='utf-8') as db:
         data = json.load(db)
     if f"{channelId}" not in data["history"]:
         data["history"][f"{channelId}"]=[]
@@ -27,7 +27,7 @@ def change_history(res, role, channelId):
             'role':role,
             'parts':res
         })
-    with open("database\chat_history.json", 'w', encoding='utf-8') as db:
+    with open("core\database\chat_history.json", 'w', encoding='utf-8') as db:
         json.dump(data, db, indent=4)
     return data["history"][f"{channelId}"]
 def get_history(channelId):

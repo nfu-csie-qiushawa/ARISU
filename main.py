@@ -4,7 +4,7 @@ import asyncio
 import logging
 import os
 from dotenv import load_dotenv
-from core.Loder import commands_loder, event_loder
+from core.handle.Loder import commands_loder, event_loder
 load_dotenv()
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix = "!", intents = intents)
