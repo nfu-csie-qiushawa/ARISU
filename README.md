@@ -1,4 +1,4 @@
-﻿﻿# ARISU
+﻿# ARISU
 虎尾科技大學程式練功坊discord群的輔助機器人。
 
 
