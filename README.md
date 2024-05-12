@@ -1,4 +1,4 @@
-﻿# ARISU
+﻿﻿# ARISU
 虎尾科技大學程式練功坊discord群的輔助機器人。
 
 
@@ -13,7 +13,8 @@
 
 # 安裝
 需求
-- Python 3.11 以上
+- 安裝 [git](https://git-scm.com/downloads)
+- 安裝 [Python](https://www.python.org/downloads/) (版本3.11以上)
 - 申請 [discord bot token](https://discord.com/developers/applications)
 - 申請 [gemini api token](https://ai.google.dev/)
   
