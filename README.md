@@ -16,7 +16,7 @@
 - 安裝 [git](https://git-scm.com/downloads)
 - 安裝 [Python](https://www.python.org/downloads/) (版本3.11以上)
 - 申請 [discord bot token](https://discord.com/developers/applications)
-- 申請 [gemini api token](https://ai.google.dev/)
+- 申請 [gemini api token](https://aistudio.google.com/app/apikey?hl=zh-tw)
   
 本地部屬這個專案
 
