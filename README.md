@@ -23,7 +23,7 @@
 ```bash
 git clone https://github.com/nfu-csie-qiushawa/ARISU.git
 cd ARISU
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 你需要配置你的.env檔案在專案目錄(記得把example拿掉)
